@@ -34,7 +34,6 @@ body {
   cursor: pointer;
 }
 button{
-    /* font-size: large; */
     background-color: blueviolet;
     border-radius: 50px;
     display:inline;
