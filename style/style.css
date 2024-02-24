@@ -55,5 +55,8 @@ button:hover{
     body{
         background-color: aqua;
     }
+    #password {
+        font-weight: 900;
+      }
   }
   
