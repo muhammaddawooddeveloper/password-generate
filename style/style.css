@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #000;
+}
+.container {
+  background: linear-gradient(90deg, rgba(48, 245, 42 , 1), blue);
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.display {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  justify-content: center;
+
+}
+#password {
+  padding: 10px;
+  font-weight: 50;
+  border-radius: 10px;
+}
+.display img {
+  width: 20px;
+  color: red;
+  position: absolute;
+  margin-left: 160px;
+  cursor: pointer;
+}
+button{
+    font-size: large;
+    background-color: blueviolet;
+    border-radius: 50px;
+    display:inline;
+    margin-top: 10px;
+
+}
+button:hover{
+    cursor: pointer;
+
+}
